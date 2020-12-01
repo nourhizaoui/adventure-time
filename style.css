@@ -6,7 +6,7 @@
 header
 {
     background-image:
-     linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0.2)), url(background.jpg);
+     linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0.2)), url(living1.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -49,7 +49,7 @@ h2{
     text-transform: uppercase;
     font-size:40px;
     text-align:none ;
-    margin-top: 2px:
+    margin-top: 0.7px:
 }
 h1
 {
@@ -92,25 +92,161 @@ h1
     transition: all 0.5s ease-in;
 }
 
-.ex8 .parent {
+.parent {
     height: auto;
     display: grid;
-    grid-gap: 1rem;
+    
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .ex8 .visual {
+   .visual {
     height: 100px;
     width: 100%;
   }
 
-  .ex8 .card {
+   .part1 {
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+    
     justify-content: space-between;
+    background-color: blueviolet;
+    background-image: url(tas1.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    border: 0px;
+    padding: 0px
+
+  }
+  .part2 {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-between;
+    background-color: blueviolet;
+    background-image: url(tas2.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    border: 0px;
+    padding: 0px
+
+
+  }
+  .part3 {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-between;
+    background-color: blueviolet;
+    background-image: url(tas3.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    border: 0px;
+    padding: 0px
+
+
   }
 
-  .ex8 h3 {
-    margin: 0
+   h2{
+   font-size: 0,4cm;
+   color: #625261;
+    text-align: center;
+    
+    
+    
   }
+  p {
+    display: block;
+    margin-block-start: 30em;
+    margin-block-end: 1em;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+     
+    
+}
+
+  .h1
+  {
+    color: black;
+    text-transform: uppercase;
+    font-size:700px;
+    text-align: left;
+    margin-top: 650px:
+  }
+  
+  }
+  .section yellow{
+      background-image: url(logo.jpg);
+  }
+
+  .parent blue {
+    display: grid;
+    place-items: center;
+  }
+  .taswira{
+      max-width: 100%;
+      
+      height: auto;
+      display: block;
+    
+      margin-left: auto;
+      margin-right: auto;
+      min-height: 10em;
+      display: table-cell;
+      vertical-align: middle;
+  }
+  body {
+    background-color: #e0dfd2;
+    line-height: 24px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #1f2226;
+    
+}
+  .footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #a0c1b8;
+    color: black;
+    height: 70px;
+  }
+  .jomla 
+  { text-align: center;
+     
+     height: 100px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color:#dbf6e9;
+    line-height: 50px:
+    display: block;
+    
+  }
+  h3{
+      padding-top: 26px;
+      font-size: 0.4cm;
+      color: #a6a6a4;
+  }
+  .taswira{
+      margin: 0 auto;
+      width: 600px;
+      align-items: center;
+      justify-items: center;
+      text-align: center;
+      padding-top: 200px;
+      padding-bottom: 200px;
+
+  }
+  .blue{
+      display: flex;
+      align-items: center;
+      background-color:#dbf6e9;
+      ;
+
+    }
